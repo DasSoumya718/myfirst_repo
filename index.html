@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Goal</title>
+</head>
+<style>
+    body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0px;
+        background: url('pic/bg.jpg');
+        height:5000 px;
+        color: white;
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+         
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+       
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        
+    }
+    
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar a{
+        color: white;
+         text-decoration: none;
+         padding: 10px;
+        
+    }
+    .navbar a:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        width: 88px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0px 12px;
+        background:none;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(98, 98, 151)
+    }
+    .container{
+        border: 2px solid white;
+        margin: 162px 77px;
+        padding:105px 79px;
+        border-radius: 10px;
+        width: 33%;
+    }
+    .formgroup input{
+        margin: 2px 2px;
+        padding: 2px 124px;
+        align-items: center;
+        width: 33px;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+                <img src="pic/logo.webp" alt="">
+                <div>Fitness Goal</div>
+        </div>
+        <div class="mid">
+             <ul class="navbar">
+                 <li><a href="#">Home</a></li>                 
+                 <li><a href="#">About Us</a></li>                 
+                 <li><a href="#">Fitness Calculator</a></li>                 
+                 <li><a href="#">Contact Us</a></li>                 
+
+             </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>Join the best Gym NOW</h1>
+       <form action="No action.php">
+           <div class="formgroup">
+               <input type="text" name="" placeholder="Enter Your name">
+           </div>
+           <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your name">
+        </div>
+       
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+    
+</body>
+</html>
